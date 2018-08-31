@@ -1,0 +1,27 @@
+{
+  "name": "deliverable2",
+  "version": "1.0.0",
+  "description": "deliverable2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/81179/Wireframe-opdracht2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/81179/Wireframe-opdracht2/issues"
+  },
+  "homepage": "https://github.com/81179/Wireframe-opdracht2#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.4.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

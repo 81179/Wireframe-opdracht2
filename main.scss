@@ -1,0 +1,82 @@
+$font: 'Playfair Display', serif;
+$white: #f4f5f7;
+$black: #1a1b1c;
+$shadow: 1px 0 0 $black, -1px 0 0 $black, 0 1px 0 $black, 0 -1px 0 $black, 1px 1px $black, -1px -1px 0 $black, 1px -1px 0 $black, -1px 1px 0 $black;
+$hover: #cec4d3;
+
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+  background: $white;
+}
+.nav{
+  float: right;
+  margin-bottom: 20%;
+  margin-right: 5%;
+}
+.nav__item{
+  float: left;
+  list-style:none;
+  margin: 5px;
+  font-size: 110%;
+}
+.nav__link{
+  text-decoration: none;
+  color: $white;
+  text-shadow: $shadow;
+  &:hover{
+    color: $hover;
+  }
+}
+.heading{
+  float:left;
+  margin: 10px;
+  color: $white;
+  text-shadow: $shadow;
+  margin-left: 5%;
+}
+.news{
+  margin-left: 5%;
+  clear: both;
+  color: $white;
+  text-shadow: $shadow;
+}
+.page-header{
+  background: url("img/header.jpg") no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+.news__item{
+  font-size: 150%;
+  width: 40%;
+}
+.explorations{
+  color: $black;
+}
+.explorations__heading, .explorations__text{
+  text-align: center;
+}
+.explorations__wrapper{
+  text-align: center;
+}
+.explorations__item{
+  display: inline-block;
+  width: 90%;
+  margin: 2%;
+  background: white;
+}
+.explorations__image--left{
+  float: left;
+  width: 50%;
+  height: auto;
+}
+.explorations__image--right{
+  float: right;
+  width: 50%;
+  height: auto;
+}
